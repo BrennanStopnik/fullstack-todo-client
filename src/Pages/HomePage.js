@@ -51,7 +51,7 @@ const HomePage = (props) => {
         <option value='asc'>asc</option>
         <option value='desc'>desc</option>
       </select>
-      <h1>Fullstack ToDo Application</h1>
+      <h1>Fullstack ToDo App</h1>
       {toDoList.map((todo, index) => {
         return (
           <ToDoCard
